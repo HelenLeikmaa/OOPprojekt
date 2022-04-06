@@ -21,7 +21,7 @@ public class TavalineMängija extends Mängija implements Skill{
         if (x != -1) {
             return x;
         }
-        return (int) ((Math.random() * 10) + 0);
+        return (int) ((Math.random() * 10));
     }
 
     @Override
@@ -29,7 +29,7 @@ public class TavalineMängija extends Mängija implements Skill{
         if (y != -1) {
             return y;
         }
-        return (int) ((Math.random() * 10) + 0);
+        return (int) ((Math.random() * 10));
     }
 
     @Override

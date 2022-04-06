@@ -1,6 +1,6 @@
 public class Välimus{
 
-    // jumpsuit-il on alati värv, aga randoomsega võib see olla ka loom, mille puhul ei ole juuksevärvi
+    // jumpsuit-il on alati värv, aga randoomsega võib see olla ka rebane, siis värvus on oranž
     public static String jumpsuit(String jumpsuitVärv) {
         if (jumpsuitVärv.equals("random")){
             String[] list = {"lilleline", "triibuline", "oranz", "mummuline", "laiguline", "rebane"};

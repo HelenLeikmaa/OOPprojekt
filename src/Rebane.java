@@ -25,7 +25,7 @@ public class Rebane extends Mängija implements Skill{
         if (y != -1) {
             return y;
         }
-        return (int) ((Math.random() * 10) + 0);
+        return (int) ((Math.random() * 10));
     }
 
     @Override

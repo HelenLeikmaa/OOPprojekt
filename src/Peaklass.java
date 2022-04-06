@@ -11,7 +11,7 @@ public class Peaklass {
         // scanner võtab kogu info mis antakse ja söödab selle sisse peaklassi
         Scanner info = new Scanner(System.in);
 
-        System.out.println("sisesta oma Nimi");
+        System.out.println("sisesta oma nimi");
         String nimi  = info.nextLine();
 
         System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranz, mummuline, laiguline, random");

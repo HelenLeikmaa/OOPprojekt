@@ -4,6 +4,7 @@ import java.lang.Math;
 public class Rebane extends Mängija implements Skill{
 
     private String riietus = "Rebase kostüüm";
+    private String juustevärvus = "oranž";
     private int sneakVäärtus;
     private int eluVäärtus;
 
@@ -32,6 +33,7 @@ public class Rebane extends Mängija implements Skill{
     public String toString() {
         return super.toString() +
                 "\t riietus : " + riietus + '\n' +
+                "\t kasuka värv: " + juustevärvus + '\n' +
                 "\t sneak : " + sneak(sneakVäärtus) + '\n' +
                 "\t ellujäämisoskus : " + ellujäämisoskus(eluVäärtus);
     }

@@ -3,7 +3,7 @@ public class Välimus{
     // jumpsuit-il on alati värv, aga randoomsega võib see olla ka loom, mille puhul ei ole juuksevärvi
     public static String jumpsuit(String jumpsuitVärv) {
         if (jumpsuitVärv.equals("random")){
-            String[] list = {"lilleline", "triibuline", "oranz", "mummuline", "laiguline", "rebane"};
+            String[] list = {"lilleline", "triibuline", "oranž", "mummuline", "laiguline", "rebane"};
             String valik = list[(int) ((Math.random() * 6) + 0)];
             return valik;
         }

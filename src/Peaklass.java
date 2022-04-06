@@ -14,7 +14,7 @@ public class Peaklass {
         System.out.println("sisesta oma nimi");
         String nimi  = info.nextLine();
 
-        System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranz, mummuline, laiguline, random");
+        System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranž, mummuline, laiguline, random");
         String valik1 = info.nextLine();
         String jumpsuitValik = Välimus.jumpsuit(valik1);
         if(valik1.equals("random")){
@@ -33,7 +33,7 @@ public class Peaklass {
         System.out.println("kas tahad ise oskuste tasemed valida? (jah, ei)");
         System.out.println("kui valid ei, genereeritakse need automaatselt");
 
-        String valik = info.nextLine();
+        String valik = info.nextLine();  // sneak ja ellujäämisoskuste valik, jah- sisestab ise nt, ei- random
 
         if (valik.equals("jah")){
             if (jumpsuitValik.equals("rebane")){
@@ -57,7 +57,7 @@ public class Peaklass {
             Rebane mängija = new Rebane(nimi, sneak, ellujäämine);
             System.out.println(mängija);
         }
-        else {
+        else {  // kui mängija ütleb, et ei soovi skille valida
             TavalineMängija mängija = new TavalineMängija(nimi, jumpsuitValik, juustevärv, sneak, ellujäämine);
             System.out.println(mängija);
         }

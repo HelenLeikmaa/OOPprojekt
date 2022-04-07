@@ -35,9 +35,9 @@ public class TavalineMängija extends Mängija implements Skill{
     @Override
     public String toString() {
         return super.toString() +
-                "\t tunked : " + jumpsuitVärvus + '\n' +
-                "\t juuksed : " + juustevärvus + '\n' +
-                "\t sneak : " + sneak(sneakVäärtus) + '\n' +
-                "\t ellujäämisoskus : " + ellujäämisoskus(eluVäärtus);
+                "\t tunked: " + jumpsuitVärvus + '\n' +
+                "\t juuksed: " + juustevärvus + '\n' +
+                "\t sneak: " + sneak(sneakVäärtus) + '\n' +
+                "\t ellujäämisoskus: " + ellujäämisoskus(eluVäärtus);
     }
 }

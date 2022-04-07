@@ -33,9 +33,9 @@ public class Rebane extends Mängija implements Skill{
     @Override
     public String toString() {
         return super.toString() +
-                "\t riietus : " + riietus + '\n' +
+                "\t riietus: " + riietus + '\n' +
                 "\t kasuka värv: " + juustevärvus + '\n' +
-                "\t sneak : " + sneak(sneakVäärtus) + '\n' +
-                "\t ellujäämisoskus : " + ellujäämisoskus(eluVäärtus);
+                "\t sneak: " + sneak(sneakVäärtus) + '\n' +
+                "\t ellujäämisoskus: " + ellujäämisoskus(eluVäärtus);
     }
 }

@@ -4,7 +4,7 @@ public class Välimus{
     public static String jumpsuit(String jumpsuitVärv) {
         if (jumpsuitVärv.equals("random")){
 
-            String[] list = {"lilleline", "triibuline", "oranz", "mummuline", "laiguline", "rebane"};
+            String[] list = {"lilleline", "triibuline", "oranž", "mummuline", "laiguline", "rebane"};
             String valik = list[(int) (Math.random() * 6)];
 
             return valik;

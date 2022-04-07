@@ -22,13 +22,14 @@ Mäng on intuitiivne ja kasutusjuhendit ei vaja.
 
 # Klasside eesmärgid ja olulisemad meetodid:
 
-Peaklass:
+TegelaseLoomine:
 Vajalike andmete algväärtustamine
 Scanneri kasutamine, mängija valikute sisse küsimine:
 nimi, jumpsuiti värv, sneak, ellujäämisoskus.
 Jumpsuiti ja juuksevärvi on võimalik lasta randomilt valida.
 Võimalik valida, et genereeritakse sneak ja ellujäämisoskus.
 Kui jumpsuiti valiku all vastatakse rebane, siis on automaatselt kasuka värv oranž ja sneak on 8.
+Jumpsuiti valiku põhjal minnakse edasi kas Rebase 
 
 
 

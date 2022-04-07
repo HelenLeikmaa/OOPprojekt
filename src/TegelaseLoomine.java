@@ -55,12 +55,16 @@ public class TegelaseLoomine {
             }
         }
         if (jumpsuitValik.equals("rebane")) {
+            
             Rebane mängija = new Rebane(nimi, jumpsuitValik, sneak, ellujäämine);
             System.out.println(mängija);
         } else {
             TavalineMängija mängija = new TavalineMängija(nimi, jumpsuitValik, juustevärv, sneak, ellujäämine);
             System.out.println(mängija);
         }
+
+        OskusteTasemed uus = new OskusteTasemed(sneak, ellujäämine);
+        uus.misTase();
 
     }
 

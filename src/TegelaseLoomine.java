@@ -13,11 +13,9 @@ public class TegelaseLoomine {
         Scanner info = new Scanner(System.in);
 
         System.out.println("sisesta oma nimi");
-<<<<<<< HEAD:src/Peaklass.java
+
         String nimi  = info.nextLine();
-=======
-        String nimi = info.nextLine();
->>>>>>> helen:src/TegelaseLoomine.java
+
 
         System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranž, mummuline, laiguline, random");
         String valik1 = info.nextLine();
@@ -62,12 +60,8 @@ public class TegelaseLoomine {
             
             Rebane mängija = new Rebane(nimi, jumpsuitValik, sneak, ellujäämine);
             System.out.println(mängija);
-<<<<<<< HEAD:src/Peaklass.java
         }
         else {  // kui mängija ütleb, et ei soovi skille valida
-=======
-        } else {
->>>>>>> helen:src/TegelaseLoomine.java
             TavalineMängija mängija = new TavalineMängija(nimi, jumpsuitValik, juustevärv, sneak, ellujäämine);
             System.out.println(mängija);
         }

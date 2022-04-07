@@ -9,16 +9,26 @@ Maria, Heleni ja Pirjo mäng
     
 
 
-Projekti  kirjeldus
+# Projekti  kirjeldus:
 
 Programmi eesmärk on pakkuda kasutajale toredat seiklust alternatiivses maailmas.
 Selleks loob ta endale etteantud valikute abil tegelase ja siseneb maailma.
 Valida saab nime ning etteantud nimekirjast juustevärvuse ja riiete värvuse.
-Väike easter egg on meil ka: kui mängija valib riiete värvuseks rebasemustri, siis muutub ta ise rebaseks. Rebasel on üks kahest mängus olevast oskusest kohe alguses paigas ja seda mängija muuta ei saa.
+Väike easter egg on meil ka: kui mängija valib riiete värvuseks rebasemustri, siis muutub ta ise rebaseks. Rebasel on üks kahest mängus olevast oskusest kohe alguses paigas (sneak = 8) ja seda mängija muuta ei saa, lisaks on rebase kasuka värv automaatselt oranž.
 Mitte-rebased saavad valida väärtused kahele oskusele: hiilimine ja ellujäämisoskus. Väärtused peavad jääma vahemikku 0 – 10. Edasised sündmused (kui nendeni jõuame) kulgevad vastavalt valikule, mis kõik jõuavad eri teid mööda kas sõjakooli või hoopis õnnelikult metsa elama. 
 
 Kui kõik läheb hästi, siis jõuab ta mängus ka toimetama hakata. Kui me valmis ei jõua plaaniga, siis ..
 Mäng on intuitiivne ja kasutusjuhendit ei vaja. 
+
+# Klasside eesmärgid ja olulisemad meetodid:
+
+Peaklass:
+Vajalike andmete algväärtustamine
+Scanneri kasutamine, mängija valikute sisse küsimine:
+nimi, jumpsuiti värv, sneak, ellujäämisoskus.
+Jumpsuiti ja juuksevärvi on võimalik lasta randomilt valida.
+Võimalik valida, et genereeritakse sneak ja ellujäämisoskus.
+Kui jumpsuiti valiku all vastatakse rebane, siis on automaatselt kasuka värv oranž ja sneak on 8.
 
 
 

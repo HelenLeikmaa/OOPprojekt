@@ -12,47 +12,47 @@ public class TegelaseLoomine {
         // scanner võtab kogu info mis antakse ja söödab selle sisse peaklassi
         Scanner info = new Scanner(System.in);
 
-        System.out.println("sisesta oma nimi");
+        System.out.println("Sisesta oma nimi: " + "\n");
 
         String nimi  = info.nextLine();
 
-        System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranž, mummuline, laiguline, random");
+        System.out.println("Vali tunkede välimus: lilleline, triibuline, oranž, mummuline, laiguline, random: " + "\n");
         String valik1 = info.nextLine();
         String jumpsuitValik = Välimus.jumpsuit(valik1);
 
         if (valik1.equals("random")) {
-            System.out.println("valiti " + jumpsuitValik);
+            System.out.println("Valiti " + jumpsuitValik);
         }
 
         if (!jumpsuitValik.equals("rebane")) {
-            System.out.println("Vali juuksevärv: roheline, blond, punane, must, sinine, brünett, random");
+            System.out.println("Vali juuksevärv: roheline, blond, punane, must, sinine, brünett, random " + "\n");
             String valik2 = info.nextLine();
             juustevärv = Välimus.juustevärv(valik2);
 
             if (valik2.equals("random")) {
-                System.out.println("valiti " + juustevärv);
+                System.out.println("Valiti " + juustevärv);
             }
         }
 
-        System.out.println("kas tahad ise oskuste tasemed valida? (jah, ei)");
-        System.out.println("kui valid ei, genereeritakse need automaatselt");
+        System.out.println("Kas tahad ise oskuste tasemed valida? (jah, ei)");
+        System.out.println("Kui valid ei, genereeritakse need automaatselt.");
 
         String valik = info.nextLine();  // sneak ja ellujäämisoskuste valik, jah- sisestab ise nt, ei- random
 
         if (valik.equals("jah")) {
             if (jumpsuitValik.equals("rebane")) {
                 sneak = 8;
-                System.out.println("kuna sa oled rebane, siis su sneak on eos 8 ");
+                System.out.println("Kuna sa oled rebane, siis su sneak on eos 8.");
             } else {
-                System.out.println("Sneak : ");
+                System.out.println("Sneak: ");
                 sneak = info.nextInt();
             }
-            System.out.println("Ellujäämisoskus : ");
+            System.out.println("Ellujäämisoskus: ");
             ellujäämine = info.nextInt();
 
         } else {
             if (jumpsuitValik.equals("rebane")) {
-                System.out.println("kuna sa oled rebane, siis su sneak on eos 8 ");
+                System.out.println("Kuna sa oled rebane, siis su sneak on eos 8.");
             }
         }
         if (jumpsuitValik.equals("rebane")) {

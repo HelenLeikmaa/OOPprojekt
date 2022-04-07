@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
-public class Peaklass extends Mängija {
-
-    public Peaklass(String nimi, String jumpsuitVärvus, String juustevärvus, int sneakVäärtus, int eluväärtus) {
-        super(nimi, jumpsuitVärvus, juustevärvus, sneakVäärtus, eluväärtus);
-    }
+public class TegelaseLoomine {
 
     public static void main(String[] args) {
 
@@ -22,15 +18,16 @@ public class Peaklass extends Mängija {
         System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranz, mummuline, laiguline, random");
         String valik1 = info.nextLine();
         String jumpsuitValik = Välimus.jumpsuit(valik1);
+
         if (valik1.equals("random")) {
             System.out.println("valiti " + jumpsuitValik);
         }
 
-        String valik2 = null;
         if (!jumpsuitValik.equals("rebane")) {
             System.out.println("Vali juuksevärv: roheline, blond, punane, must, sinine, brünett, random");
-            valik2 = info.nextLine();
+            String valik2 = info.nextLine();
             juustevärv = Välimus.juustevärv(valik2);
+
             if (valik2.equals("random")) {
                 System.out.println("valiti " + juustevärv);
             }
@@ -58,18 +55,16 @@ public class Peaklass extends Mängija {
             }
         }
         if (jumpsuitValik.equals("rebane")) {
-            Rebane mängija = new Rebane(nimi, jumpsuitValik, juustevärv, sneak, ellujäämine);
+            Rebane mängija = new Rebane(nimi, jumpsuitValik, sneak, ellujäämine);
             System.out.println(mängija);
         } else {
             TavalineMängija mängija = new TavalineMängija(nimi, jumpsuitValik, juustevärv, sneak, ellujäämine);
             System.out.println(mängija);
         }
 
-        Peaklass ebatavalineMängija = new Peaklass(nimi, valik1, valik2, sneak, ellujäämine);
-        System.out.println(ebatavalineMängija);
     }
 
-    }
+}
 
 
 

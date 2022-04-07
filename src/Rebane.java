@@ -8,8 +8,9 @@ public class Rebane extends Mängija implements Skill{
     private int eluVäärtus;
 
 
-    public Rebane(String nimi, int x, int y) {
+    public Rebane(String nimi, String riietus, int x, int y) {
         super(nimi);
+        this.riietus = riietus;
         this.sneakVäärtus = x;
         this.eluVäärtus = y;
 
@@ -17,7 +18,7 @@ public class Rebane extends Mängija implements Skill{
 
     @Override
     public int sneak(int x) {
-        return 0;
+        return 8;
     }
 
     @Override

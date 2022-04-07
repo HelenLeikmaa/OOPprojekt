@@ -16,6 +16,7 @@ public class TegelaseLoomine {
 
         String nimi  = info.nextLine();
 
+
         System.out.println("vali jumpsuiti värv: lilleline, triibuline, oranž, mummuline, laiguline, random");
         String valik1 = info.nextLine();
         String jumpsuitValik = Välimus.jumpsuit(valik1);
@@ -59,7 +60,6 @@ public class TegelaseLoomine {
             
             Rebane mängija = new Rebane(nimi, jumpsuitValik, sneak, ellujäämine);
             System.out.println(mängija);
-
         }
         else {  // kui mängija ütleb, et ei soovi skille valida
             TavalineMängija mängija = new TavalineMängija(nimi, jumpsuitValik, juustevärv, sneak, ellujäämine);

@@ -3,8 +3,13 @@ public class Välimus{
     // jumpsuit-il on alati värv, aga randoomsega võib see olla ka rebane, siis värvus on oranž
     public static String jumpsuit(String jumpsuitVärv) {
         if (jumpsuitVärv.equals("random")){
+<<<<<<< HEAD
             String[] list = {"lilleline", "triibuline", "oranž", "mummuline", "laiguline", "rebane"};
             String valik = list[(int) ((Math.random() * 6) + 0)];
+=======
+            String[] list = {"lilleline", "triibuline", "oranz", "mummuline", "laiguline", "rebane"};
+            String valik = list[(int) (Math.random() * 6)];
+>>>>>>> helen
             return valik;
         }
         return jumpsuitVärv;
@@ -14,7 +19,7 @@ public class Välimus{
     public static String juustevärv(String juusteVärv){
         if (juusteVärv.equals("random")){
             String[] list2 = {"roheline", "blond", "punane", "must", "sinine", "brünett"};
-            String valik2 = list2[(int) ((Math.random() * 5) + 0)];
+            String valik2 = list2[(int) (Math.random() * 5)];
             return valik2;
         }
         return juusteVärv;

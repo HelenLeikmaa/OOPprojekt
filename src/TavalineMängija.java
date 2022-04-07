@@ -2,18 +2,18 @@ import java.lang.Math;
 
 
 public class TavalineMängija extends Mängija implements Skill{
+
     private String jumpsuitVärvus;
     private String juustevärvus;
     private int sneakVäärtus;
     private int eluVäärtus;
 
-    public TavalineMängija(String nimi, String jumpsuitVärvus, String juustevärvus, int sneakVäärtus, int eluväärtus) {
+    public TavalineMängija(String nimi, String jumpsuitVärvus, String juustevärvus, int sneakVäärtus, int eluVäärtus) {
         super(nimi);
         this.jumpsuitVärvus = jumpsuitVärvus;
         this.juustevärvus = juustevärvus;
         this.sneakVäärtus = sneakVäärtus;
-        this.eluVäärtus = eluväärtus;
-
+        this.eluVäärtus = eluVäärtus;
     }
 
     @Override
@@ -35,8 +35,8 @@ public class TavalineMängija extends Mängija implements Skill{
     @Override
     public String toString() {
         return super.toString() +
-                "\t jumpsuitVärvus : " + jumpsuitVärvus + '\n' +
-                "\t juustevärvus : " + juustevärvus + '\n' +
+                "\t tunked : " + jumpsuitVärvus + '\n' +
+                "\t juuksed : " + juustevärvus + '\n' +
                 "\t sneak : " + sneak(sneakVäärtus) + '\n' +
                 "\t ellujäämisoskus : " + ellujäämisoskus(eluVäärtus);
     }

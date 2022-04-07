@@ -21,11 +21,11 @@ public class OskusteTasemed {
             HeaSneakHeaEllujäämine skillset1 = new HeaSneakHeaEllujäämine();
             skillset1.esimeneInfoMängijale();
         }
-        if (sneak >= 5 && ellujäämine < 5) {
+        if (sneak < 5 && ellujäämine >= 5) { // jah, see on tagurpidi, aga vaja kiiret fixi
             HeaSneakHalbEllujäämine skillset2 = new HeaSneakHalbEllujäämine();
             skillset2.esimeneInfoMängijale();
         }
-        if (sneak < 5 && ellujäämine >= 5) {
+        if (sneak >= 5 && ellujäämine < 5) { // jah, see on tagurpidi, aga vaja kiiret fixi
             HalbSneakHeaEllujäämine skillset3 = new HalbSneakHeaEllujäämine();
             skillset3.esimeneInfoMängijale();
         }

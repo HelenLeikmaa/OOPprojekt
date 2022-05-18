@@ -1,3 +1,9 @@
+package com.example.graafika;
+
+import com.example.graafika.HalbSneakHeaEllujäämine;
+import com.example.graafika.HeaSneakHalbEllujäämine;
+import com.example.graafika.HeaSneakHeaEllujäämine;
+
 public class OskusteTasemed {
 
     private int ellujäämine;

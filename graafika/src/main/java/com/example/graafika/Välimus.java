@@ -1,3 +1,5 @@
+package com.example.graafika;
+
 public class Välimus{
 
     // jumpsuit-il on alati värv, aga randoomsega võib see olla ka rebane, siis värvus on oranž

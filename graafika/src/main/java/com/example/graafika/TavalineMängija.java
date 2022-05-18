@@ -1,3 +1,5 @@
+package com.example.graafika;
+
 import java.lang.Math;
 
 

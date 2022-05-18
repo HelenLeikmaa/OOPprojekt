@@ -1,16 +1,22 @@
 package com.example.graafika;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TegelaseLoomine {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+        // paar väärtust, mida oli vaja enne käima panemist.
         String juustevärv = null;
         int ellujäämine = -1;
         int sneak = -1;
 
+        // scanner võtab kogu info mis antakse ja söödab selle sisse peaklassi
         Scanner info = new Scanner(System.in);
+
         System.out.println("Sisesta oma nimi: " + "\n");
+
         String nimi  = info.nextLine();
 
         System.out.println("Vali tunkede välimus: lilleline, triibuline, oranž, mummuline, laiguline, random: " + "\n");
@@ -53,7 +59,7 @@ public class TegelaseLoomine {
             }
         }
         if (jumpsuitValik.equals("rebane")) {
-
+            
             Rebane mängija = new Rebane(nimi, jumpsuitValik, sneak, ellujäämine);
             System.out.println(mängija);
 

@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 package com.example.graafika;
 
 import com.example.graafika.HalbSneakHeaEllujäämine;
@@ -22,22 +24,22 @@ public class OskusteTasemed {
         return sneak;
     }
 
-    public void misTase() {
+    public void misTase() throws IOException {
         if (sneak >= 5 && ellujäämine >= 5) {
             HeaSneakHeaEllujäämine skillset1 = new HeaSneakHeaEllujäämine();
-            skillset1.esimeneInfoMängijale();
+            skillset1.esimeneInfoMängijaleHeaSneakHeaEllujäämine();
         }
         if (sneak < 5 && ellujäämine >= 5) { // jah, see on tagurpidi, aga vaja kiiret fixi
             HeaSneakHalbEllujäämine skillset2 = new HeaSneakHalbEllujäämine();
-            skillset2.esimeneInfoMängijale();
+            skillset2.esimeneInfoMängijaleHeaSneakHalbEllujäämine();
         }
         if (sneak >= 5 && ellujäämine < 5) { // jah, see on tagurpidi, aga vaja kiiret fixi
             HalbSneakHeaEllujäämine skillset3 = new HalbSneakHeaEllujäämine();
-            skillset3.esimeneInfoMängijale();
+            skillset3.esimeneInfoMängijaleHalbSneakHeaEllujäämine();
         }
         if (sneak < 5 && ellujäämine < 5) {
             HalbSneakHalbEllujäämine skillset4 = new HalbSneakHalbEllujäämine();
-            skillset4.esimeneInfoMängijale();
+            skillset4.esimeneInfoMängijaleHalbSneakHalbEllujäämine();
         }
     }
 }

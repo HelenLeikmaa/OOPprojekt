@@ -9,7 +9,7 @@ public class HeaSneakHeaEllujäämine {
     // 1 tähendab et on hea, 0 tähendab, et see on halb.
 
 
-    public void esimeneInfoMängijale() {
+    public void esimeneInfoMängijaleHeaSneakHeaEllujäämine() {
         List<String> asjad = new ArrayList<>();
         asjad.add("nuga");
         System.out.println("Tere! Oled jõudnud läbi portaali Maailma. Sul on head hiilimise ja ellujäämise oskused. Hea algus!");

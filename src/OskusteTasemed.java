@@ -18,7 +18,7 @@ public class OskusteTasemed {
         return sneak;
     }
 
-    public void misTase() throws IOException {
+    public void misTase() throws IOException, ValeSisestusErind {
         if (sneak >= 5 && ellujäämine >= 5) {
             HeaSneakHeaEllujäämine skillset1 = new HeaSneakHeaEllujäämine();
             skillset1.esimeneInfoMängijaleHeaSneakHeaEllujäämine();

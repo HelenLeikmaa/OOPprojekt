@@ -1,10 +1,6 @@
-import java.io.IOException;
-
 package com.example.graafika;
 
-import com.example.graafika.HalbSneakHeaEllujäämine;
-import com.example.graafika.HeaSneakHalbEllujäämine;
-import com.example.graafika.HeaSneakHeaEllujäämine;
+import java.io.IOException;
 
 public class OskusteTasemed {
 

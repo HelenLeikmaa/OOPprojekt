@@ -1,9 +1,12 @@
 package com.example.graafika;
 import javafx.application.Application;
+import javafx.event.Event;
+import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
@@ -35,14 +38,12 @@ public class HelloApplication extends Application {
         VBox sisestamisKastike = new VBox();
         sisestamisKastike.setLayoutX(10);
         sisestamisKastike.setLayoutY(40);
-        sisestamisKastike.getChildren().addAll(küsimus, tekstiala);
+        Button nupp = new Button("Valisin nime ära!");
+        nupp.setLayoutX(10);
+        nupp.setLayoutY(70);
+        sisestamisKastike.getChildren().addAll(küsimus, tekstiala, nupp);
         String nimi = tekstiala.getText();
         stseen1 = new Scene(sisestamisKastike, 200, 200);
-
-        pealava.setTitle("Seiklus!!");  // lava tiitelribale pannakse tekst
-        pealava.setScene(stseen1);  // lavale lisatakse stseen
-        pealava.show();  // lava tehakse nähtavaks
-
 
         Mängija mängija = new Mängija(nimi);
         Text mängijaInfo = new Text(mängija.toString());
@@ -50,6 +51,14 @@ public class HelloApplication extends Application {
         mängijaInfo.setY(80);
         VBox lehekülg2 = new VBox(mängijaInfo);
         lehekülg2.getChildren().add(lehekülg2);
+        stseen2 = new Scene(lehekülg2, 200, 200);
+        nupp.setOnAction(event -> {
+            pealava.setScene(stseen2);
+        });
+
+        pealava.setTitle("Seiklus!!");  // lava tiitelribale pannakse tekst
+        pealava.setScene(stseen1);  // lavale lisatakse stseen
+        pealava.show();  // lava tehakse nähtavaks
     }
 
     public static void main(String[] args) {

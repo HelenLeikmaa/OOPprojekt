@@ -1,8 +1,9 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TegelaseLoomine {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         // paar väärtust, mida oli vaja enne käima panemist.
         String juustevärv = null;

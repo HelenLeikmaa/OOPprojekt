@@ -44,14 +44,18 @@ public class HalbSneakHalbEllujäämine {
                                 if (vastus.equals("A")) {
                                     text = "Paned liduma täiest jõust, kuid kukud pea kohe maha tagasi. \nMärkad, et paelad olid lahti jäänud kui müügimehele proovisid enda papusid maha müüa, " +
                                             "\nkuid ebaõnnestudes kurbusest unustasid paelad kinni siduda kurbusest. \nKorravalvurid saavad su kätte ja viivad su vangi. " +
-                                            "\nTeepeal selgub et sinu kahtlase riietuse tõttu äratasid liiga palju tähelepanu ja sind raporteeriti korravalvuritele.";
+                                            "\nTeepeal selgub et sinu kahtlase riietuse tõttu äratasid liiga palju tähelepanu ja sind raporteeriti korravalvuritele.\nVangist saadetakse sind edasi sõjakooli kuna käimas on sõda!";
                                     System.out.println(text);
                                     out.println(text);
+                                    text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                                    System.out.println(text);
                                     return 1;
                                 } else if (vastus.equals("B")) {
-                                    text = "Lähed korravalvuritega kaasa ja teepeal selgub et sinu kahtlase riietuse tõttu äratasid liiga palju tähelepanu ja \nsind raporteeriti korravalvuritele, sõidad vangi!";
+                                    text = "Lähed korravalvuritega kaasa ja teepeal selgub et sinu kahtlase riietuse tõttu äratasid liiga palju tähelepanu ja \nsind raporteeriti korravalvuritele, sõidad vangi! Vangist saadetakse sind edasi sõjakooli kuna käimas on sõda!";
                                     System.out.println(text);
                                     out.println(text);
+                                    text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                                    System.out.println(text);
                                     return 2;
                                 } else {
                                     System.out.println("Sisestasid ebakorrektse vastuse");
@@ -68,14 +72,18 @@ public class HalbSneakHalbEllujäämine {
                                 if (vastus.equals("A")) {
                                     text = "Paned liduma täiest jõust, kuid kukud pea kohe maha tagasi. " +
                                             "\nMärkad et vahepeal olid paelad lahti läinud ja olid nende tõttu maha kukkunud. " +
-                                            "\nKorravalvurid saavad su kätte ja viivad su vangi.";
+                                            "\nKorravalvurid saavad su kätte ja viivad su vangi. Vangist saadetakse sind edasi sõjakooli kuna käimas on sõda!";
                                     System.out.println(text);
                                     out.println(text);
+                                    text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                                    System.out.println(text);
                                     return 3;
                                 } else if (vastus.equals("B")) {
-                                    text = "Lähed korravalvuritega kaasa ja sõidad vangi!";
+                                    text = "Lähed korravalvuritega kaasa ja sõidad vangi! Vangist saadetakse sind edasi sõjakooli kuna käimas on sõda!";
                                     System.out.println(text);
                                     out.println(text);
+                                    text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                                    System.out.println(text);
                                     return 4;
                                 } else
                                     System.out.println("Sisestasid ebakorrektse vastuse");
@@ -85,9 +93,11 @@ public class HalbSneakHalbEllujäämine {
                         }
                     }
                 } else if (vastus.equals("B")) {
-                    text = "Sinu juurde tulevad korravalvurid ja  lähed korravalvuritega kaasa, \nning teepeal selgub et sinu kahtlase riietuse tõttu äratasid liiga palju tähelepanu \nja sind raporteeriti korravalvuritele, sõidad vangi!";
+                    text = "Sinu juurde tulevad korravalvurid ja  lähed korravalvuritega kaasa, \nning teepeal selgub et sinu kahtlase riietuse tõttu äratasid liiga palju tähelepanu \nja sind raporteeriti korravalvuritele, sõidad vangi! Vangist saadetakse sind edasi sõjakooli kuna käimas on sõda!";
                     System.out.println(text);
                     out.println(text);
+                    text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                    System.out.println(text);
                     return 5;
                 } else {
                     //throw new ValeSisestusErind("Sisestasid ebakorrektse vastuse"); ei tööta nii nagu tahaksin

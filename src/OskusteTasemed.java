@@ -18,6 +18,7 @@ public class OskusteTasemed {
         return sneak;
     }
 
+
     public void misTase() throws IOException, ValeSisestusErind {
         if (sneak >= 5 && ellujäämine >= 5) {
             HeaSneakHeaEllujäämine skillset1 = new HeaSneakHeaEllujäämine();
@@ -33,7 +34,7 @@ public class OskusteTasemed {
         }
         if (sneak < 5 && ellujäämine < 5) {
             HalbSneakHalbEllujäämine skillset4 = new HalbSneakHalbEllujäämine();
-            skillset4.esimeneInfoMängijaleHalbSneakHalbEllujäämine();
+            //skillset4.esimeneInfoMängijaleHalbSneakHalbEllujäämine();
         }
     }
 }

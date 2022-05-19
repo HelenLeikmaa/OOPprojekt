@@ -47,6 +47,8 @@ public class HeaSneakHeaEllujäämine {
                             text = "Lähened meestele ja kõnetad neid. Mehed ehmuvad ja nabivad kohe su kinni!\nTeepeal selgub et kõik sobivas vanuses mehed peavad minema sõtta!\nLähed algselt vangi kuna peitsid ennast metsas,";
                             System.out.println(text);
                             out.println(text);
+                            text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                            System.out.println(text);
                             return 1;
                         } else if (vastus.equals("B")) {
                             text = "Peidad ennast meeste eest ära. \nNatukese aja möödudes tuled oma peidukohast välja ja jätkad lõkkematerjali otsingutega." +
@@ -54,6 +56,8 @@ public class HeaSneakHeaEllujäämine {
                                     "\nVarahommikul ärkad selle peale, et sind hoitakse kinni ja surutakse käeraudadesse!\nMetsas olevad mehed hobustega olid su kinni nabinud ja viivad su vangi!";
                             System.out.println(text);
                             out.println(text);
+                            text = "Edasi mängimiseks külasta meie veebilehte ja osta terve mäng!";
+                            System.out.println(text);
                             return 2;
                         } else
                             System.out.println("Sisestasid ebakorrektse vastuse");

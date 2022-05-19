@@ -7,9 +7,7 @@ Pirjo Jõelo
 
 Maria, Heleni ja Pirjo mäng
 
-
-
-# Projekti  kirjeldus:
+## Projekti  1. osa kirjeldus:
 
 Programmi eesmärk on pakkuda kasutajale toredat seiklust alternatiivses maailmas.
 Selleks loob ta endale etteantud valikute abil tegelase ja siseneb maailma.
@@ -23,7 +21,7 @@ Edasised sündmused kulgevad vastavalt valitule; kõik jõuavad eri teid mööda
 Mäng on intuitiivne ja kasutusjuhendit ei vaja.
 
 
-# Klasside eesmärgid ja olulisemad meetodid:
+### Klasside eesmärgid ja olulisemad meetodid:
 
 TegelaseLoomine (e peaklass):
 Vajalike andmete algväärtustamine.
@@ -79,7 +77,7 @@ Näiteks HalbSneaHeaEllujäämine annab kaasa kompassi.
 TegevusEnneKooli:
 Siin klassis hakkab arenema rühmatöö 2. etapp, ehk süžee.
 
-#Protsessi kirjeldus
+### Protsessi kirjeldus
 Idee tuli üsna kiiresti: kõigile meeldis mõte tekstipõhisest mängust ja arendasime
 tulevase loo nii kaugele, et see täidab esimese ja teise rühmatöö mahu nii, et jääb ülegi.
 Keeruline oli endale piiranguid seada, sest tahtsime lihtsalt nii palju teha:)
@@ -109,4 +107,44 @@ Testisime kõiki loodud meetodeid klassis TegelaseLoomine. Selleks proovisime ko
 randomit ja erinevaid kombinatsioone oskustest, samuti easter eggi. Veateateid saime töö käigus üksjagu, nüüdseks
 on need kõik kõrvaldatud ja programm töötab:)
 
-Meenutame, et peaklass on praegu klass TegelaseLoomine. Head mängimist!
+
+## Projekti 2. osa kirjeldus
+
+Jätkasime sama projektiga (mis oli graafika seisukohalt traagiline möödalaskmine).
+Esimeses osas kirjeldatust me midagi ei eemaldanud, küll aga lisasime sellele juurde!
+Mis siis lisandus?
+
+**iga klassi kohta eraldi selle eesmärk ja olulisemad meetodid**
+
+Klass Aken:
+kohutav, *kohutav* kasutajaliides, mille eesmärk on näidata, et oskame akent luua, 
+nuppusid lisada ja sündmusi luua. Sisulist seost mängu endaga ei ole, sest ei jäänud 
+aega olemasolevate klasside sidumiseks kasutajaliidesest saadud infoga.
+
+
+
+### Protsessi kirjeldus 
+
+Mida ja kui kaua tegi Pirjo?
+iga rühmaliikme panus (sh tehtud klassid/meetodid) ja ajakulu (orienteeruvalt);
+
+Mida ja kui kaua tegi Helen?
+Klass Aken ja erind TühiSisendErind on minu kätetöö. Aega kulus umbes 10 tundi, sest 
+graafika loomine osutus oluliselt keerukamaks, kui arvasin. 
+
+Mis muret valmistas?
+Heleni süda muutus murest raskeks, sest taustapildi saamine VBoxidele ei õnnestunudki. 
+Vähe sellest: ma ei jõudnud graafikat ja varasemalt loodud klasside sisu siduda. Väga-väga kurb.
+
+**tegemise mured (nt millistest teadmistest/oskustest tundsite projekti tegemisel puudust)**
+
+
+Mis me lõpptulemusest arvame?
+Projekt vajab arendamist. Praegu päästab see, et *storyline* on põnev ja lugu on humoorikalt 
+kirja pandud. Selle osaga oleme väga rahul:)
+Küll jõuame ka uute peatükkideni! Helen plaanib suvel mängu edasi arendada:)
+
+**hinnang oma töö lõpptulemusele (millega saite hästi hakkama ja mis vajab arendamist)**
+
+Kuidas testisime?
+Mängisime mitu korda läbi ja kõik toimis:)

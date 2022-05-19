@@ -26,8 +26,6 @@ public class Aken extends Application {
         Background taust = new Background (new BackgroundImage(taustapilt, NO_REPEAT, NO_REPEAT, BackgroundPosition.DEFAULT,
                 BackgroundSize.DEFAULT));
 
-        Group juur = new Group();
-        Scene stseen1 = new Scene(juur, 500, 500);
 
         //esimene aken//
         Label küsinSuvaliselt = new Label("Sisesta vabalt valitud sõna (et saaksid mängimise jaoks sõrmed soojaks): ");
@@ -90,22 +88,22 @@ public class Aken extends Application {
 
 
         //kolmanda akna kujundus//
-        VBox kolmasLehekülg = new VBox();
-        kolmasLehekülg.setPadding(new Insets(15));
-        kolmasLehekülg.getChildren().addAll(viimneSoovitus1, viimneSoovitus2, viimneSoovitus3, nupp3);
-        kolmasLehekülg.setBackground(taust);
+        VBox kolmasLeht = new VBox();
+        kolmasLeht.setPadding(new Insets(15));
+        kolmasLeht.getChildren().addAll(viimneSoovitus1, viimneSoovitus2, viimneSoovitus3, nupp3);
+        kolmasLeht.setBackground(taust);
 
         // teisest aknast kolmandasse liikumine: mouse//
         nupp2.setOnMouseClicked(event -> {
             RadioButton vastabEksistentsiaalselt = (RadioButton) nupugrupp.getSelectedToggle();
             String valitudSiinOlemisePõhjus = vastabEksistentsiaalselt.getText();
-            aken.setScene(new Scene(kolmasLehekülg));
+            aken.setScene(new Scene(kolmasLeht));
         });
 
         //teisest aknast kolmandasse liikumine: key//
         teineLeht.setOnKeyPressed(event -> {
             if (event.getCode().equals(KeyCode.ENTER))  {
-                aken.setScene(new Scene(kolmasLehekülg));
+                aken.setScene(new Scene(kolmasLeht));
             }
         });
 

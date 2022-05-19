@@ -114,8 +114,7 @@ Jätkasime sama projektiga (mis oli graafika seisukohalt traagiline möödalaskm
 Esimeses osas kirjeldatust me midagi ei eemaldanud, küll aga lisasime sellele juurde!
 Mis siis lisandus?
 
-**iga klassi kohta eraldi selle eesmärk ja olulisemad meetodid**
-Juurde tuli mitte töötav erindiklass, logifail ja meetodid kus toimub loo printimine.
+Juurde tuli mitte töötav erindiklass, logifail ja meetodid, kus toimub loo printimine.
 
 Klass Aken:
 kohutav, *kohutav* kasutajaliides, mille eesmärk on näidata, et oskame akent luua, 

@@ -2,6 +2,7 @@ package com.example.graafika;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
+import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
@@ -24,6 +25,9 @@ public class Aken extends Application {
         Image taustapilt = new Image(Objects.requireNonNull(getClass().getResourceAsStream("pardid.png")));
         Background taust = new Background (new BackgroundImage(taustapilt, NO_REPEAT, NO_REPEAT, BackgroundPosition.DEFAULT,
                 BackgroundSize.DEFAULT));
+
+        Group juur = new Group();
+        Scene stseen1 = new Scene(juur, 500, 500);
 
         //esimene aken//
         Label küsinSuvaliselt = new Label("Sisesta vabalt valitud sõna (et saaksid mängimise jaoks sõrmed soojaks): ");
@@ -65,7 +69,9 @@ public class Aken extends Application {
             catch (TühiSisendErind e) {
                 System.out.printf("Originaalne.");
             }
-            aken.setScene(new Scene(teineLeht));
+            Scene stseen2 = new Scene(teineLeht);
+
+            aken.setScene(stseen2);
         });
 
         //esimesest aknast teise liikumine: key event//
@@ -86,8 +92,8 @@ public class Aken extends Application {
         //kolmanda akna kujundus//
         VBox kolmasLehekülg = new VBox();
         kolmasLehekülg.setPadding(new Insets(15));
-        kolmasLehekülg.setBackground(taust);
         kolmasLehekülg.getChildren().addAll(viimneSoovitus1, viimneSoovitus2, viimneSoovitus3, nupp3);
+        kolmasLehekülg.setBackground(taust);
 
         // teisest aknast kolmandasse liikumine: mouse//
         nupp2.setOnMouseClicked(event -> {
@@ -113,6 +119,7 @@ public class Aken extends Application {
         esimeneLeht.setHgap(5);
         esimeneLeht.setVgap(5);
         esimeneLeht.setPadding(new Insets(15));
+        esimeneLeht.setBackground(taust);
 
         aken.setScene(new Scene(esimeneLeht));
         aken.show();

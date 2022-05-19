@@ -142,7 +142,7 @@ Loovusest jäi vahel puudu kirjutades sisu
 Mis me lõpptulemusest arvame?
 Projekt vajab arendamist. Praegu päästab see, et *storyline* on põnev ja lugu on humoorikalt 
 kirja pandud. Selle osaga oleme väga rahul:)
-Küll jõuame ka uute peatükkideni! Helen plaanib suvel mängu edasi arendada:)
+Küll jõuame ka uute peatükkideni! Helen plaanib suvel mängu edasi arendada:) 
 
 Kuidas testisime?
 Mängisime mitu korda läbi ja kõik toimis:)

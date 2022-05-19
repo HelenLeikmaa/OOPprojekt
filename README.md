@@ -139,15 +139,10 @@ Vähe sellest: ma ei jõudnud graafikat ja varasemalt loodud klasside sisu sidud
 Pirjo: kajuks ei saanud erindeid tööle kuid programm teeb seda mida tahan, visuaalselt vähemalt. 
 Loovusest jäi vahel puudu kirjutades sisu
 
-**tegemise mured (nt millistest teadmistest/oskustest tundsite projekti tegemisel puudust)**
-
-
 Mis me lõpptulemusest arvame?
 Projekt vajab arendamist. Praegu päästab see, et *storyline* on põnev ja lugu on humoorikalt 
 kirja pandud. Selle osaga oleme väga rahul:)
 Küll jõuame ka uute peatükkideni! Helen plaanib suvel mängu edasi arendada:)
-
-**hinnang oma töö lõpptulemusele (millega saite hästi hakkama ja mis vajab arendamist)**
 
 Kuidas testisime?
 Mängisime mitu korda läbi ja kõik toimis:)

@@ -115,6 +115,7 @@ Esimeses osas kirjeldatust me midagi ei eemaldanud, küll aga lisasime sellele j
 Mis siis lisandus?
 
 **iga klassi kohta eraldi selle eesmärk ja olulisemad meetodid**
+Juurde tuli mitte töötav erindiklass, logifail ja meetodid kus toimub loo printimine.
 
 Klass Aken:
 kohutav, *kohutav* kasutajaliides, mille eesmärk on näidata, et oskame akent luua, 
@@ -126,7 +127,7 @@ aega olemasolevate klasside sidumiseks kasutajaliidesest saadud infoga.
 ### Protsessi kirjeldus 
 
 Mida ja kui kaua tegi Pirjo?
-iga rühmaliikme panus (sh tehtud klassid/meetodid) ja ajakulu (orienteeruvalt);
+Teksti sisuga ja logidega tegeles Pirjo. Aega kulus umbes 7 tundi.
 
 Mida ja kui kaua tegi Helen?
 Klass Aken ja erind TühiSisendErind on minu kätetöö. Aega kulus umbes 10 tundi, sest 
@@ -135,6 +136,8 @@ graafika loomine osutus oluliselt keerukamaks, kui arvasin.
 Mis muret valmistas?
 Heleni süda muutus murest raskeks, sest taustapildi saamine VBoxidele ei õnnestunudki. 
 Vähe sellest: ma ei jõudnud graafikat ja varasemalt loodud klasside sisu siduda. Väga-väga kurb.
+Pirjo: kajuks ei saanud erindeid tööle kuid programm teeb seda mida tahan, visuaalselt vähemalt. 
+Loovusest jäi vahel puudu kirjutades sisu
 
 **tegemise mured (nt millistest teadmistest/oskustest tundsite projekti tegemisel puudust)**
 

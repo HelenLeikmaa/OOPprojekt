@@ -1,5 +1,3 @@
-package com.example.graafika;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,7 +1,3 @@
-package com.example.graafika;
-
-import com.example.graafika.Skill;
-
 import java.lang.Math;
 
 // easter egg

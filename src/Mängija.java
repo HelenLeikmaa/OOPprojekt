@@ -1,5 +1,3 @@
-package com.example.graafika;
-
 class Mängija {
 
     private String nimi;

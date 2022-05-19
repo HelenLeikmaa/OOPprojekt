@@ -1,5 +1,3 @@
-package com.example.graafika;
-
 import java.io.IOException;
 
 public class OskusteTasemed {
